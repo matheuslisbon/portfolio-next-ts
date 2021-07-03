@@ -7,10 +7,10 @@ export const NavBar: React.FC = () => {
       <h1>Matheus Dev</h1>
 
       <ul>
-        <li>Home</li>
-        <li>Portfolio</li>
-        <li>Sobre</li>
-        <li>Contato</li>
+        <li>HOME</li>
+        <li>PORTFOLIO</li>
+        <li>SOBRE</li>
+        <li>CONTATO</li>
       </ul>
     </Container>
   );

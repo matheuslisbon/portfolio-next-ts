@@ -1,6 +1,13 @@
 import React from "react";
 import ProgressDiv from "./styled";
 import Image from "next/image";
+type ProgressProps = {
+  borderName: string;
+  imgLink: string;
+  colorBk: string;
+  text: string;
+  skills: string;
+};
 export const Progress = ({ borderName, skills, imgLink, colorBk, text }) => {
   return (
     <ProgressDiv>
