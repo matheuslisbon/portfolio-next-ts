@@ -1,6 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 import { Container } from "./styled";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import DevFinancesImg from "../../../public/gitHubImgs/DevFinances.jpeg";
+import cloneYtbImg from "../../../public/githubImgs/cloneYoutubeImg.jpg";
+
+import mountainImg from "../../../public/githubImgs/webMountain.jpeg";
+import covidImg from "../../../public/githubImgs/imgSite.png";
+import moveItImg from "../../../public/githubImgs/moveIt.jpeg";
+import EcolletaImg from "../../../public/githubImgs/nlwEcolleta.png";
+
+import happyImg from "../../../public/githubImgs/happy.png";
+
+import Image from "next/image";
 
 export const Projects: React.FC = () => {
   return (
@@ -16,7 +27,7 @@ export const Projects: React.FC = () => {
           >
             VISITAR WEBSITE
           </a>
-          <img src="/githubImgs/DevFinances.jpeg" alt="" />
+          <Image src={DevFinancesImg} alt="tech" />
           <p>Dev Finances - Projeto de finanças </p>
         </div>
 
@@ -24,7 +35,7 @@ export const Projects: React.FC = () => {
           <a target="_blanck" href="https://mountains-matheus-dev.netlify.app/">
             VISITAR WEBSITE
           </a>
-          <img src="/githubImgs/webMountain.jpeg" alt="" />
+          <Image src={mountainImg} alt="tech" />
           <p>The Mountain - Galeria de montanhas</p>
         </div>
 
@@ -32,7 +43,7 @@ export const Projects: React.FC = () => {
           <a target="_blanck" href="https://dados-covid-world.netlify.app/">
             VISITAR WEBSITE
           </a>
-          <img src="/githubImgs/imgSite.PNG" alt="" />
+          <Image src={covidImg} alt="tech" />
           <p>Fluxo Covid - dados mundiais de covid 19</p>
         </div>
 
@@ -40,7 +51,7 @@ export const Projects: React.FC = () => {
           <a target="_blanck" href="https://move-it-beige.vercel.app/">
             VISITAR WEBSITE
           </a>
-          <img src="/githubImgs/moveIt.jpeg" alt="" />
+          <Image src={moveItImg} alt="tech" />
           <p>Move it NLW4 - horário de estudo com pomodoro</p>
         </div>
 
@@ -51,7 +62,7 @@ export const Projects: React.FC = () => {
           >
             VISITAR WEBSITE
           </a>
-          <img src="/githubImgs/cloneYoutubeImg.jpg" alt="" />
+          <Image src={cloneYtbImg} alt="tech" />
           <p>Youtube - clone youtube</p>
         </div>
 
@@ -62,7 +73,7 @@ export const Projects: React.FC = () => {
           >
             VISITAR WEBSITE
           </a>
-          <img src="/githubImgs/nlwEcolleta.png" alt="" />
+          <Image src={EcolletaImg} alt="tech" />
           <p>Nlw 1 rocketseat - Projeto da nlw 4</p>
         </div>
 
@@ -74,7 +85,7 @@ export const Projects: React.FC = () => {
             VISITAR WEBSITE
           </a>
 
-          <img src="/githubImgs/happy.png" alt="" />
+          <Image src={happyImg} alt="tech" />
           <p>Nlw 3 rocketseat - Projeto da nlw 4</p>
         </div>
       </section>

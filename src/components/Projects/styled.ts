@@ -30,6 +30,7 @@ export const Container = styled.div`
 
       a {
         position: absolute;
+        z-index: 2;
         display: none;
         justify-content: center;
         align-items: center;
