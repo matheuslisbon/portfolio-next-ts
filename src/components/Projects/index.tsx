@@ -1,15 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import { Container } from "./styled";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import DevFinancesImg from "../../../public/gitHubImgs/DevFinances.jpeg";
-import cloneYtbImg from "../../../public/githubImgs/cloneYoutubeImg.jpg";
+import DevFinancesImg from "../../styles/DevFinances.jpeg";
+import cloneYtbImg from "../../styles/assets/gitHubImgs/cloneYoutubeImg.jpg";
 
-import mountainImg from "../../../public/webMountain.jpeg";
-import covidImg from "../../../public/githubImgs/imgSite.png";
-import moveItImg from "../../../public/githubImgs/moveIt.jpeg";
-import EcolletaImg from "../../../public/githubImgs/nlwEcolleta.png";
+import mountainImg from "../../styles/assets/webMountain.jpeg";
+import covidImg from "../../styles/assets/imgSite.png";
+import moveItImg from "../../styles/assets/moveIt.jpeg";
+import EcolletaImg from "../../styles/assets/nlwEcolleta.png";
 
-import happyImg from "../../../public/githubImgs/happy.png";
+import happyImg from "../../styles/happy.png";
 
 import Image from "next/image";
 
