@@ -1,6 +1,7 @@
 import React from "react";
 import { NavBar } from "../components/NavBar";
 import "../styles/global.css";
+import { Footer } from "../components/Footer";
 
 import Head from "next/head";
 function MyApp({ Component, pageProps }) {
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <NavBar />
       <Component {...pageProps} />
+      <Footer />
     </React.Fragment>
   );
 }

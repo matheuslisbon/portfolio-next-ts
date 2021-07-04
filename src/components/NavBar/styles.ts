@@ -12,7 +12,8 @@ export const Container = styled.div`
   padding: 0px 6vw;
   margin: 0 auto;
 
-  background: #101010;
+  background: rgba(5, 5, 5, 0.8);
+  backdrop-filter: saturate(400%) blur(40px);
 
   ul {
     display: flex;
