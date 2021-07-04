@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import DevFinancesImg from "../../../public/gitHubImgs/DevFinances.jpeg";
 import cloneYtbImg from "../../../public/githubImgs/cloneYoutubeImg.jpg";
 
-import mountainImg from "../../../public/githubImgs/webMountain.jpeg";
+import mountainImg from "../../../public/webMountain.jpeg";
 import covidImg from "../../../public/githubImgs/imgSite.png";
 import moveItImg from "../../../public/githubImgs/moveIt.jpeg";
 import EcolletaImg from "../../../public/githubImgs/nlwEcolleta.png";
