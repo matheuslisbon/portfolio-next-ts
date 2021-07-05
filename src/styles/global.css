@@ -12,6 +12,11 @@ body {
   background-size: 100% 180%;
   background-attachment: fixed;
 }
+@media (max-width: 900px) {
+  body {
+    background-size: 400% 150%;
+  }
+}
 
 li {
   list-style: none;
