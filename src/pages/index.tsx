@@ -8,10 +8,20 @@ import { Footer } from "../components/Footer";
 export default function Home() {
   return (
     <React.Fragment>
-      <Introduction />
-      <Portfolio />
-      <Skills />
-      <Projects />
+      <div data-aos="fade-in" data-aos-duration="2000">
+        <Introduction />
+      </div>
+
+      <div data-aos="fade-in" data-aos-duration="2000">
+        <Portfolio />
+      </div>
+
+      <div data-aos="fade-in" data-aos-duration="2000">
+        <Skills />
+      </div>
+      <div data-aos="fade-in" data-aos-duration="2000">
+        <Projects />
+      </div>
     </React.Fragment>
   );
 }

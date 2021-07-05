@@ -1,7 +1,12 @@
 import React from "react";
 import SkillsDiv from "./styled";
 import { Progress } from "../../components/Progress/index";
-import Css from "../../../public/css.png";
+
+import css from "../../../public/css.png";
+import html from "../../../public/javascript.png";
+import javascript from "../../../public/javascript.png";
+import react from "../../../public/react.png";
+import node from "../../../public/node.png";
 
 export const Skills: React.FC = () => {
   return (
@@ -29,7 +34,7 @@ export const Skills: React.FC = () => {
         <div className="itens">
           <Progress
             text={"AVANÇADO"}
-            imgLink={Css}
+            imgLink={html}
             colorBk={" linear-gradient(to left, #ff00ff, #fb4a21)"}
             skills="HTML"
             borderName={"#ff00ff"}
@@ -37,7 +42,7 @@ export const Skills: React.FC = () => {
 
           <Progress
             text={"AVANÇADO"}
-            imgLink={Css}
+            imgLink={javascript}
             colorBk={"linear-gradient(to left, #ff6731, #ffcd00)"}
             skills={"JAVASCRIPT"}
             borderName={"#ff6731"}
@@ -47,14 +52,14 @@ export const Skills: React.FC = () => {
             text={"INTERMEDÍARIO"}
             colorBk={"linear-gradient(to right, #8a2be2 , #ff3a40  )"}
             skills="CSS"
-            imgLink={Css}
+            imgLink={css}
             borderName={"#8a2be2"}
           />
           <Progress
             text={"INTERMEDÍARIO"}
             colorBk={"linear-gradient(to right, #69ff46, #3a90e5"}
             skills="NODE"
-            imgLink={Css}
+            imgLink={node}
             borderName={"#69ff46"}
           />
 
@@ -62,7 +67,7 @@ export const Skills: React.FC = () => {
             text={"INTERMEDÍARIO"}
             colorBk={"linear-gradient(to right, #0b36c3 , #7df9ff)"}
             skills="REACT"
-            imgLink={Css}
+            imgLink={react}
             borderName={"#0b36c3"}
           />
         </div>
