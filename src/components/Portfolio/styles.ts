@@ -12,7 +12,7 @@ export const Container = styled.div`
   }
 
   h1 {
-    font-size: 56px;
+    font-size: 58px;
     margin-bottom: 40px;
     margin-top: 100px;
   }
@@ -21,7 +21,7 @@ export const Container = styled.div`
     flex-direction: column-reverse;
     font-size: 18px;
     h1 {
-      font-size: 26px;
+      font-size: 54px;
       margin: 0;
     }
   }

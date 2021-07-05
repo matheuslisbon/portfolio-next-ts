@@ -23,7 +23,7 @@ export const Container = styled.div`
       padding: 60px 0;
     }
     h1 {
-      font-size: 26px;
+      font-size: 46px;
       margin: 0;
     }
     p {

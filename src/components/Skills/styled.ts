@@ -168,9 +168,6 @@ const SkillsDiv = styled.div`
       align-items: center;
       margin: 15px;
     }
-    h1 {
-      font-size: 40px;
-    }
   }
 `;
 

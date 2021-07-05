@@ -8,7 +8,7 @@ export const Container = styled.div`
   flex-direction: column;
 
   h1 {
-    font-size: 78px;
+    font-size: 74px;
     padding-bottom: 36px;
   }
 
