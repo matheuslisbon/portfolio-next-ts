@@ -4,8 +4,6 @@ const SkillsDiv = styled.div`
   margin-bottom: 40px;
   width: 90%;
 
-  padding: 50px 60px;
-
   margin: 10px auto;
   margin-top: 60px;
   border-radius: 18px;
