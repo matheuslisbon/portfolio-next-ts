@@ -1,10 +1,10 @@
 import React from "react";
-import { NavBar } from "../components/NavBar";
+
 import { Portfolio } from "../components/Portfolio";
 import { Introduction } from "../components/Home";
 import { Skills } from "../components/Skills";
 import { Projects } from "../components/Projects";
-import { Footer } from "../components/Footer";
+
 export default function Home() {
   return (
     <React.Fragment>
@@ -12,14 +12,14 @@ export default function Home() {
         <Introduction />
       </div>
 
-      <div data-aos="fade-in" data-aos-duration="2000">
+      <div data-aos="fade-in" data-aos-duration="2800">
         <Portfolio />
       </div>
 
-      <div data-aos="fade-in" data-aos-duration="2000">
+      <div data-aos="fade-in" data-aos-duration="2800">
         <Skills />
       </div>
-      <div data-aos="fade-in" data-aos-duration="2000">
+      <div data-aos="fade-in" data-aos-duration="2800">
         <Projects />
       </div>
     </React.Fragment>

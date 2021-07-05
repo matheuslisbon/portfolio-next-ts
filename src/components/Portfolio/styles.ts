@@ -15,4 +15,13 @@ export const Container = styled.div`
     margin-bottom: 40px;
     margin-top: 100px;
   }
+
+  @media (max-width: 900px) {
+    flex-direction: column-reverse;
+    font-size: 18px;
+    h1 {
+      font-size: 26px;
+      margin: 0;
+    }
+  }
 `;

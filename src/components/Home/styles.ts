@@ -17,10 +17,16 @@ export const Container = styled.div`
   }
 
   @media (max-width: 700px) {
+    flex-direction: column;
+    div.title {
+      padding: 60px 0;
+    }
     h1 {
       font-size: 26px;
+      margin: 0;
     }
     p {
+      margin: 0;
       font-size: 20px;
     }
   }

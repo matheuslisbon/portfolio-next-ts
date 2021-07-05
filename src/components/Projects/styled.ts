@@ -16,6 +16,14 @@ export const Container = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     gap: 28px;
 
+    @media (max-width: 1000px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 700px) {
+      grid-template-columns: 1fr;
+    }
+
     div {
       display: flex;
       position: relative;
