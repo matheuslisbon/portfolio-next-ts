@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { Container, SubContainer } from "./styled";
 import {
   FaLinkedin,
