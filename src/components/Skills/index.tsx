@@ -3,7 +3,7 @@ import SkillsDiv from "./styled";
 import { Progress } from "../../components/Progress/index";
 
 import css from "../../../public/css.png";
-import html from "../../../public/javascript.png";
+import html from "../../../public/html.png";
 import javascript from "../../../public/javascript.png";
 import react from "../../../public/react.png";
 import node from "../../../public/node.png";

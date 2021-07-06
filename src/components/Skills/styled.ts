@@ -7,7 +7,7 @@ const SkillsDiv = styled.div`
   margin: 10px auto;
   margin-top: 60px;
   border-radius: 18px;
-  color: white;
+
   h1 {
     font-size: 80px;
     width: min-content;
@@ -143,7 +143,6 @@ const SkillsDiv = styled.div`
     border-radius: 8px;
     backdrop-filter: blur(10px);
     transition: 0.5s;
-    color: white;
   }
   .container .box:hover .content {
     left: -25px;

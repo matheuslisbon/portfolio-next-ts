@@ -3,7 +3,7 @@ import logo from "../../public/logoMath.png.png";
 
 export const Container = styled.div`
   width: 100%;
-  background: rgba(5, 5, 5, 0.8);
+  background: ${(props) => props.theme.nav};
   backdrop-filter: saturate(400%) blur(40px);
   position: sticky;
   top: 0;
@@ -18,6 +18,7 @@ export const Container = styled.div`
 
     ul {
       display: flex;
+      align-items: center;
       li {
         padding: 0 14px;
       }

@@ -1,14 +1,15 @@
 import { Container } from "./styled";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 import DevFinancesImg from "../../styles/assets/gitHubImgs/DevFinances.jpeg";
 import cloneYtbImg from "../../styles/assets/gitHubImgs/cloneYoutubeImg.jpg";
-
 import mountainImg from "../../styles/assets/gitHubImgs/webMountain.jpeg";
 import covidImg from "../../styles/assets/gitHubImgs/imgSite.png";
 import moveItImg from "../../styles/assets/gitHubImgs/moveIt.jpeg";
 import EcolletaImg from "../../styles/assets/gitHubImgs/nlwEcolleta.png";
-
+import eDiaristasImg from "../../styles/assets/gitHubImgs/e-diaristas.jpeg";
 import happyImg from "../../styles/assets/gitHubImgs/happy.png";
+import letmeask from "../../styles/assets/gitHubImgs/letmeask.jpeg";
 
 import Image from "next/image";
 
@@ -19,6 +20,24 @@ export const Projects: React.FC = () => {
         <h1>Projetos</h1>
       </header>
       <section>
+        <div>
+          <a target="_blanck" href="https://e-diaristas.vercel.app/">
+            VISITAR WEBSITE
+          </a>
+
+          <Image src={eDiaristasImg} alt="tech" />
+          <p>E-diarista - Procure por profissionais </p>
+        </div>
+
+        <div>
+          <a target="_blanck" href="https://letmeask-f520b.web.app/">
+            VISITAR WEBSITE
+          </a>
+
+          <Image src={letmeask} alt="tech" />
+          <p>Nlw 6 - rocketseat - Perguntas em real-time</p>
+        </div>
+
         <div>
           <a
             target="_blanck"
