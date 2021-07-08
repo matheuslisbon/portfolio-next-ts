@@ -15,7 +15,7 @@ import Image from "next/image";
 
 export const Projects: React.FC = () => {
   return (
-    <Container>
+    <Container id="projetos">
       <header>
         <h1>Projetos</h1>
       </header>

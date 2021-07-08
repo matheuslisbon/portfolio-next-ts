@@ -4,9 +4,9 @@ import { Container } from "./styles";
 import { VscColorMode } from "react-icons/vsc";
 interface Props {
   togleTheme(): void;
-  theme: string;
+  theme?: string;
 }
-export const NavBar: React.FC<Props> = ({ togleTheme, theme }) => {
+export const NavBar: React.FC<Props> = ({ togleTheme }) => {
   return (
     <Container>
       <div>
@@ -17,10 +17,18 @@ export const NavBar: React.FC<Props> = ({ togleTheme, theme }) => {
             Theme
           </li>
           <VscColorMode size={30} cursor="pointer" onClick={togleTheme} />
-          <li>HOME</li>
-          <li>PORTFOLIO</li>
-          <li>SOBRE</li>
-          <li>CONTATO</li>
+          <li>
+            <a href="#home">HOME</a>
+          </li>
+          <li>
+            <a href="#projetos">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="#sobre">SOBRE</a>
+          </li>
+          <li>
+            <a href="#contato">CONTATO</a>
+          </li>
         </ul>
       </div>
     </Container>

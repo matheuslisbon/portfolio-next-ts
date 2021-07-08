@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export const Contact: React.FC = () => {
   return (
-    <Container>
+    <Container id="contato">
       <h1 className="contact">Contato</h1>
       <SubContainer>
         <div>

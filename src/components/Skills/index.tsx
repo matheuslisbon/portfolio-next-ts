@@ -10,7 +10,7 @@ import node from "../../../public/node.png";
 
 export const Skills: React.FC = () => {
   return (
-    <SkillsDiv>
+    <SkillsDiv id="skills">
       <h1>Skills</h1>
       <header>
         <div className="container">
@@ -92,7 +92,6 @@ export const Skills: React.FC = () => {
           </div>
         </div>
       </header>
-      <div id="sobre"></div>
     </SkillsDiv>
   );
 };

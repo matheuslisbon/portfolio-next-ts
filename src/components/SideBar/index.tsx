@@ -56,20 +56,20 @@ export default function Sidebar({
           <div className="list">
             <p>
               {" "}
-              <a href="#portfolio" className="link-nav">
-                Pórtfolio
-              </a>
-            </p>
-            <p>
-              {" "}
-              <a href="#skills" className="link-nav">
-                Skills
+              <a href="#projetos" className="link-nav">
+                projetos
               </a>
             </p>
             <p>
               {" "}
               <a href="#sobre" className="link-nav">
                 Sobre
+              </a>
+            </p>
+            <p>
+              {" "}
+              <a href="#skills" className="link-nav">
+                Skills
               </a>
             </p>
             <p>

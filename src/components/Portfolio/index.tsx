@@ -5,7 +5,7 @@ import logo from "../../../public/git-work.svg";
 
 export const Portfolio = () => {
   return (
-    <Container>
+    <Container id="sobre">
       <Image src={logo} width={800} height={800} alt="img" />
       <div>
         <h1>Sobre mim</h1>
@@ -27,7 +27,6 @@ export const Portfolio = () => {
           <label htmlFor=""> Hora outra sou Hokage ! Datebayo,</label> Ou se não
           sou <label htmlFor="">Dom Quixote</label>, Espero que tenha gostado da
           minha pequena apresentação <label htmlFor="">foi um prazer !</label>{" "}
-          <span id="contato"></span>
         </article>
       </div>
     </Container>
