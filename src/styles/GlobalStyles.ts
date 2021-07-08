@@ -1,7 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-
+*{
+  box-sizing: border-box;
+}
 html,
 body {
   padding: 0;
@@ -28,7 +30,9 @@ li {
 h1,
 h2,
 h3,
-p {
+p,
+ul
+{
   margin: 0;
 }
 

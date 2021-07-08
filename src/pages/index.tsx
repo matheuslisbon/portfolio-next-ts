@@ -6,6 +6,7 @@ import { Skills } from "../components/Skills";
 import { Projects } from "../components/Projects";
 import { Contact } from "../components/Contact";
 import { NavBar } from "../components/NavBar";
+import SideBar from "../components/SideBar";
 
 interface Props {
   togleTheme(): void;
@@ -16,24 +17,16 @@ export default function Home({ theme, togleTheme }: Props) {
   return (
     <React.Fragment>
       <NavBar togleTheme={togleTheme} theme={theme} />
-      <div data-aos="fade-in" data-aos-duration="2000">
-        <Introduction />
-      </div>
+      <SideBar togleTheme={togleTheme} />
+      <Introduction />
 
-      <div data-aos="fade-in" data-aos-duration="2800">
-        <Portfolio />
-      </div>
+      <Portfolio />
 
-      <div data-aos="fade-in" data-aos-duration="2800">
-        <Skills />
-      </div>
-      <div data-aos="fade-in" data-aos-duration="2800">
-        <Projects />
-      </div>
+      <Skills />
 
-      <div data-aos="fade-in" data-aos-duration="2800">
-        <Contact />
-      </div>
+      <Projects />
+
+      <Contact />
     </React.Fragment>
   );
 }

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import logo from "../../public/logoMath.png.png";
 
 export const Container = styled.div`
   width: 100%;
