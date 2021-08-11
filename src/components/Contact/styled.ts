@@ -16,6 +16,15 @@ export const SubContainer = styled.div`
   align-items: center;
   .icons {
     margin: 20px 0;
+    .icon-img {
+      color: ${(props) => props.theme.color};
+    }
+  }
+  .info-contact {
+    margin-top: 14px;
+    p {
+      font-size: 14px;
+    }
   }
 
   section {

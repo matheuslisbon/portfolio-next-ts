@@ -21,7 +21,7 @@ export const NavBar: React.FC<Props> = ({ togleTheme }) => {
             <a href="#home">HOME</a>
           </li>
           <li>
-            <a href="#projetos">PORTFOLIO</a>
+            <a href="#projetos">PORTFÓLIO</a>
           </li>
           <li>
             <a href="#sobre">SOBRE</a>

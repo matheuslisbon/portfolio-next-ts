@@ -4,6 +4,7 @@ import {
   FaFacebookSquare,
   FaInstagramSquare,
 } from "react-icons/fa";
+import Link from "next/link";
 import people from "../../styles/assets/people.svg";
 import Image from "next/image";
 
@@ -18,10 +19,32 @@ export const Contact: React.FC = () => {
 
         <section>
           <h3>Matheus - © Copyright 2021.</h3>
+          <div className="info-contact">
+            <p>Email: matheuslisbon@gmail.com</p>
+            <p>Telefone: (81) 98813-4824</p>
+          </div>
           <div className="icons">
-            <FaLinkedin size={40} />
-            <FaFacebookSquare size={40} />
-            <FaInstagramSquare size={40} />
+            <a
+              href="https://www.linkedin.com/in/matheus-fullstack-developer/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin size={40} className="icon-img" />
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100009610324999"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebookSquare size={40} className="icon-img" />
+            </a>
+            <a
+              href="https://www.instagram.com/matheus_lisbon/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaInstagramSquare size={40} className="icon-img" />
+            </a>
           </div>
           <div>
             <p>Site criado com carinho por mim</p>
