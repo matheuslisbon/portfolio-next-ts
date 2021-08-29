@@ -31,9 +31,13 @@ h1,
 h2,
 h3,
 p,
-ul
+ul,
+a
 {
   margin: 0;
+  text-decoration: none;
+  cursor: initial;
+  color: white;
 }
 
 ::-webkit-scrollbar {
