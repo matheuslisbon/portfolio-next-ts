@@ -17,7 +17,7 @@ interface Props {
 }
 
 export default function Home({ theme, togleTheme }: Props) {
-  const click = useRef();
+  const click = useRef(null);
   useEffect(() => {
     function HandleClick() {
       click.current.click();
