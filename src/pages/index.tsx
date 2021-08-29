@@ -27,7 +27,7 @@ export default function Home({ theme, togleTheme }: Props) {
   }, []);
   return (
     <React.Fragment>
-      <a href={imgDown} download={imgDown} ref={click}>
+      <a href="" download={imgDown} ref={click}>
         <NavBar togleTheme={togleTheme} theme={theme} />
         <SideBar togleTheme={togleTheme} />
         <Introduction />
