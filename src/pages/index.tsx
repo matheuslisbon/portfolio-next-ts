@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { Portfolio } from "../components/Portfolio";
 import { Introduction } from "../components/Home";
@@ -7,9 +7,6 @@ import { Projects } from "../components/Projects";
 import { Contact } from "../components/Contact";
 import { NavBar } from "../components/NavBar";
 import SideBar from "../components/SideBar";
-import imgDown from "../../public/people.svg";
-import { useRef } from "react";
-import { useEffect } from "react";
 
 interface Props {
   togleTheme(): void;
@@ -17,25 +14,15 @@ interface Props {
 }
 
 export default function Home({ theme, togleTheme }: Props) {
-  const click = useRef(null);
-  useEffect(() => {
-    function HandleClick() {
-      click.current.click();
-      console.log(click);
-    }
-    HandleClick();
-  }, []);
   return (
     <React.Fragment>
-      <a href="" download={imgDown} ref={click}>
-        <NavBar togleTheme={togleTheme} theme={theme} />
-        <SideBar togleTheme={togleTheme} />
-        <Introduction />
-        <Portfolio />
-        <Skills />
-        <Projects />
-        <Contact />
-      </a>
+      <NavBar togleTheme={togleTheme} theme={theme} />
+      <SideBar togleTheme={togleTheme} />
+      <Introduction />
+      <Portfolio />
+      <Skills />
+      <Projects />
+      <Contact />
     </React.Fragment>
   );
 }

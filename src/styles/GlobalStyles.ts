@@ -36,8 +36,7 @@ a
 {
   margin: 0;
   text-decoration: none;
-  cursor: initial;
-  color: white;
+
 }
 
 ::-webkit-scrollbar {
