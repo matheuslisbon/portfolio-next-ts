@@ -18,10 +18,10 @@ export const Contact: React.FC = () => {
         </div>
 
         <section>
-          <h3>Matheus - © Copyright 2021.</h3>
+          <h3>Matheus - © Copyright 2023.</h3>
           <div className="info-contact">
-            <p>Email: matheuslisbon@gmail.com</p>
-            <p>Telefone: (81) 98813-4824</p>
+            <p>Email: matheuslisbonweb@gmail.com</p>
+            <p>Telefone: (81) 98717-0711</p>
           </div>
           <div className="icons">
             <a
