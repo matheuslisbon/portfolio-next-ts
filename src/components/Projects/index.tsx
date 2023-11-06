@@ -1,7 +1,7 @@
 import { Container } from "./styled";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import DevFinancesImg from "../../styles/assets/gitHubImgs/DevFinances.jpeg";
+//import DevFinancesImg from "../../styles/assets/gitHubImgs/DevFinances.jpeg";
 import cloneYtbImg from "../../styles/assets/gitHubImgs/cloneYoutubeImg.jpg";
 import mountainImg from "../../styles/assets/gitHubImgs/webMountain.jpeg";
 import covidImg from "../../styles/assets/gitHubImgs/imgSite.png";
@@ -37,7 +37,7 @@ export const Projects: React.FC = () => {
           <Image src={letmeask} alt="tech" />
           <p>Nlw 6 - rocketseat - Perguntas em real-time</p>
         </div>
-
+        {/*
         <div>
           <a
             target="_blanck"
@@ -48,6 +48,8 @@ export const Projects: React.FC = () => {
           <Image src={DevFinancesImg} alt="tech" />
           <p>Dev Finances - Projeto de finanças </p>
         </div>
+
+*/}
 
         <div>
           <a target="_blanck" href="https://mountains-matheus-dev.netlify.app/">
